@@ -12,6 +12,11 @@ import { globalGameState } from "./state";
 
 /*loads the assets once and when the player dies we don't need to refetch the map data and assets. To avoid refetching.
 use of await to wait for the map layout to be extracted before moving on*/
+/**
+ * Sets up the game by loading sprites, creating maps, adding player and enemy entities,
+ * setting controls, and defining scenes for the game levels.
+ * @returns None
+ */
 async function gameSetup() {
     k.loadSprite("assets", "../public/kirby-like.png", {
         sliceX: 9, /*x axis division on the kirby like png*/
@@ -30,6 +35,12 @@ async function gameSetup() {
         },
     });
 
+    /**
+     * Loads a sprite with the given key and image URL.
+     * @param {string} key - The key to identify the sprite.
+     * @param {string} imageUrl - The URL of the image to use for the sprite.
+     * @returns None
+     */
     k.loadSprite("level-1", "../public/level-1.png");
     k.loadSprite("level-2", "../public/level-2.png");
 
@@ -45,6 +56,12 @@ async function gameSetup() {
         "level-2"
     );
 
+    /**
+     * Sets up and initializes the game scene for level 1.
+     * This function creates the game elements, sets the gravity, adds the player character,
+     * sets up the camera, and spawns enemies for level 1.
+     * @returns None
+     */
     k.scene("level-1", async () => {
         globalGameState.setCurrentScene("level-1");
         globalGameState.setNextScene("level-2");
@@ -92,6 +109,10 @@ async function gameSetup() {
         }
     });
 
+    /**
+     * Sets up the "level-2" scene in the game, including adding player, enemies, controls, and camera settings.
+     * @returns None
+     */
     k.scene("level-2", () => {
         globalGameState.setCurrentScene("level-2");
         globalGameState.setNextScene("level-1");
