@@ -19,7 +19,7 @@ If you clone this repo and then the game does not render properly and all the ch
 | [How to Run this](#how-to-run-this) |
 
 ## Demo of the Project
-https://github.com/Gaurav-Van/Kirby-Game-Using-TypeScript/assets/50765800/1a3b3ee4-1f6b-4023-af4b-4553452b50dd
+https://github.com/Gaurav-Van/Kirby-Game-Using-TypeScript/assets/50765800/7dfde4e6-78f5-4945-b38a-f9b164ff7531
 <hr>
 
 ## Exploring Kaboom Js
