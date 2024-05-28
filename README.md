@@ -2,7 +2,7 @@
 Small and very simple Browser Based Kirby Game to explore Kaboom JS and practice typescript a little more. Consists of 2 levels only. 
 <hr>
 
-`Left` Left Key  |  `Right` Right Key  |  `Let Kirby Cook` Key Z 
+`Left` Left Arrow Key  |  `Right` Right Arrow Key  | `Up` & `Double Power Jump` Up Arrow Key |  `Let Kirby Cook` Key Z 
 <hr>
 
 ## This code might not render properly on your browser 
