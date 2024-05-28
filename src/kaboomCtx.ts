@@ -3,8 +3,8 @@ import { scale } from "./constants";
 
 export const k = kaboom({
     /*fits in 16:9 aspect ratio*/
-    width: 296 * scale,
-    height: 145 * scale, 
+    width: 320 * scale,
+    height: 165 * scale, 
     /*to scale canvas regardless of screen size and while keeping the aspect ratio*/
     letterbox: true,
     /*Work around for a Kaboom bug. Need to both set scaling here and scale sprites so that
