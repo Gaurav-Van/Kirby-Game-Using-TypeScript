@@ -65,6 +65,8 @@ Components are modular pieces of functionality that can be added to game objects
 - **`sprite`**: Assigns a sprite image to the object for rendering.
 - **`doubleJump`**: Allows the object to perform a double jump.
 
+Optional: As I continue to expand the Domain of my Knowledge I explored Kaboom Js. Did some more practice of TypeScript. <a href="https://www.youtube.com/watch?v=R6WvJOiX99s">This</a> video from FCC helped in completion of this Game. Learned a lot about TypeScript and Kaboom Js.
+
 ### **Component Interfaces**
 
 These interfaces define the types and behaviors of various components:
